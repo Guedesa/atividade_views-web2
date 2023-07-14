@@ -1,0 +1,97 @@
+
+@charset "UTF-8";
+mysql -u seu_usuario -p
+:root{
+    --clr-primary:#2962ff;
+    --clr-primary-hover:#0d47a1;
+    --clr-gray-med:#78909c;
+    --clr-gray-light:#cfd8dc;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+header {
+    align-items: center;
+    background-color:rgb(243, 30, 179);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--clr-gray-light);
+}
+             
+    body {
+        font-family:'Open Sans', sans-serif;
+        background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv_MiVGg3QC0ibaPvKqNk2-VnaVE96zCSdrA&usqp=CAU"  );
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        background-color: burlywood;
+        text-align: center;
+}         
+          label{
+            background-color: #f134d2;
+            color: #0f0f0fef; 
+            border: 2px#0c0202ec solid ;
+            border-radius: 5px;
+          }
+    input {
+    border-radius: 5px;
+    padding: 5px;
+    border: 4px #fd45c0 solid;
+    margin: 0px 0px 12px 5px;
+} 
+select {
+  border-radius: 5px;
+  padding: 5px;
+  border: 4px #eb64e4 solid;
+  margin: 0px 0px 12px 5px;
+}          
+.btn-add{
+    border: none;
+    background-color: #f022ab;
+    color: rgb(22, 22, 22);
+    cursor: pointer;
+    font-family: bold;
+    border-radius: 0.2em;
+    outline: none;
+    transition: all 100ms ease-in;
+  } 
+
+  .btn-add:active,
+.btn-add:hover {
+  background-color: var(--clr-primary-hover);
+}       
+  
+       
+   h1 {
+   margin: 0px 0px 5px 5px;
+   text-align: center;
+   color:	#f07ad2;      
+}
+    h2 {
+    margin: 0px 0px 7px 7px;
+    text-align: center;
+    color:	#080707;
+}
+   
+div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 2em 0em;
+  }
+  .div-shadow {
+    align:left;
+    padding-inline-end:22em;
+    border-radius: 10px;
+    border: 3px #000000 solid;
+    width: 10em;
+    height: 10em;
+    margin: 10px auto;
+    background-color: whitesmoke;
+  }
+
+ 

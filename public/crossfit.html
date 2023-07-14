@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="UTF-8">
+<title>Web 2</title>
+<head>  
+    <link rel="stylesheet" href="pg.css">
+    <script src="java.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1> Academia das maravilhas </h1>
+        <h2 id="h2Div">Junte-se ao nosso time</h2>
+    </header>
+
+    <main>
+        <form id="formCadastro" action="/server.js" method="get">
+            <br>
+            <label>Cadastre-se</label>
+            <br>
+            <input type="text" id="texto" placeholder="digite seu nome">
+            <br>
+            <label>Data e hora da aula</label>
+            <input type="date" id="data"></input>      
+            <input type="time" id="hora"></input>        
+            <br>
+            <label>series</label>
+            <br>
+            <select name="" id="matricula" onchange="opcoesSerie()";>
+                <option value="1">bands</option>
+                <option value="2">ATG</option>
+                <option value="3">BS</option>
+                <option value="4">bumper plates</option>
+                <option value="5">box</option>
+                <option value="6">complex</option>
+                <option value="7">coach</option>
+                <option value="8">kipping</option>
+            </select> 
+            <br>
+        </form>
+        <input type="submit" id="bt" class="btn-add" onclick="arquivar()">
+    </main>
+</body>
+
+<footer>
+    <adress>
+      Rua 8 S/N<br>Piedade, PE, 54330-000.
+    </adress>
+    <p>Academia das Maravilhas - Todos os direitos Reservados - 2022</p>
+  </footer>
+</html>

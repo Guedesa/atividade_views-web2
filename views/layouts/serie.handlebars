@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Série</title>
+</head>
+<body>
+  <h1>Resultados da pesquisa</h1>
+
+  {{#if series}}
+    <ul>
+      {{#each series}}
+        <li>{{this.nome}} - {{this.descricao}}</li>
+      {{/each}}
+    </ul>
+  {{else}}
+    <p>Nenhum resultado encontrado para a pesquisa "{{pesquisa}}".</p>
+  {{/if}}
+</body>
+</html>
